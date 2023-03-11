@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Lavishly+Yours&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+:root {
+    --principal-font: font-family: 'Outfit', sans-serif;
+    --monoscript-font: font-family: 'Carattere', cursive;
+    --signature-font: font-family: 'Lavishly Yours', cursive;
+
+    --purple-one:#32013D;
+    --purple-two: #3D004A;
+    --purple-three:#4E005F;
+    --purple-four:#8400a2;
+    --pink-transp: #D100FF;
+    --yellow-color: #C8A800;
+    --white-color:#fff;
+}
+
+/* Header style start */
+ {
+    padding:1px 13%;
+}
+.navbar-purple {
+    background-color:var(--purple-one);
+}
+.navbar-brand img {
+    width:80px
+}
+.navbar ul li a {
+    color:var(--pink-transp);
+    text-transform:uppercase;
+    font-family: var(--principal-font);
+    font-weight: 700;
+    transition:all 0.45s ease-in;
+    
+}
+.navbar ul li a:hover, .navbar ul li a:focus  {
+    color:var(--purple-one)
+}
+
+
+
+
+
+/* Header style start */
