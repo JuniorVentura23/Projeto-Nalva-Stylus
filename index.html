@@ -25,10 +25,15 @@
 
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-dark navbar-purple fixed-top">
-            <div class="container-fluid">
-                <a href="#" class="navbar-brand"><img src="assets/images/logo.png" alt="Nalva Stylus"></a>
+            <div class="container">
+
+                <!-------------- brand start -------------->
+                <a href="index.html" class="navbar-brand"><img src="assets/images/logo.png" alt="Nalva Stylus"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="toggle navigation"><span class="navbar-toggler-icon icon"></span>
                 </button>
+                <!-------------- brand end -------------->
+
+                <!-------------- menu start -------------->
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent" >
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -62,6 +67,7 @@
                         </li>
                     </ul>                    
                 </div>
+                <!-------------- menu end -------------->
             </div>
         </nav>
 
@@ -69,9 +75,60 @@
 
     <!-------------------- Header end -------------------->
 
+
+    <!-------------------- Section carousel start --------------------->
+
     <section class="home" id="home">
-        
+        <div class="carousel slide" data-bs-ride="carousel" id="carouselExIndicators">
+
+            <!----------------- Carousel Indicators start ------------------>
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="slide1"></button>
+                <button type="button" data-bs-target="#carouselExIndicators" data-bs-slide-to="1" aria-label="slide2"></button>
+                <button type="button" data-bs-target="#carouselExIndicators" data-bs-slide-to="2" aria-label="slide3"></button>
+            </div>
+
+             <!----------------- Carousel Indicators end ------------------>
+
+             
+             <!----------------- Carousel banners start ------------------>
+             
+             <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/correto2.jpg" class="d-block w-100" alt="Nalva Stylus">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/Frente loja.jpg" class="d-block w-100" alt="Nalva Stylus">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/Frente Loja77.jpg" class="d-block w-100" alt="Nalva Stylus">
+                </div>
+             </div>
+
+             <!----------------- Carousel banners end ------------------>
+
+             
+             <!---------------- Carousel controls prev start ----------------->
+
+             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-idden="true"></span>
+                <span class="visually-hidden">Previous</span>
+             </button>
+
+             <!----------------- Carousel controls prev end ------------------>
+
+             <!---------------- Carousel controls next start ----------------->
+             <button class="carousel-control-next" type="button" data-bs-target="#carouselExIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+             </button>
+             <!---------------- Carousel controls prev end ----------------->
+
+        </div>
     </section>
+
+    <!-------------------- Section carousel end --------------------->
     
     <!-- Link Bootstrap 5 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>

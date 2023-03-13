@@ -20,30 +20,40 @@
     --white-color:#fff;
 }
 
-/* Header style start */
- {
-    padding:1px 13%;
-}
+/* ----------------- Header style start ----------------- */
+
 .navbar-purple {
     background-color:var(--purple-one);
+    padding:15px 0;    
 }
 .navbar-brand img {
-    width:80px
+    width:100px;
 }
-.navbar ul li a {
-    color:var(--pink-transp);
+.navbar {    
     text-transform:uppercase;
     font-family: var(--principal-font);
     font-weight: 700;
-    transition:all 0.45s ease-in;
-    
+    transition:all 0.35s ease-in;
+      
 }
-.navbar ul li a:hover, .navbar ul li a:focus  {
-    color:var(--purple-one)
+.nav-item {
+    padding:0.6rem;
+}
+.nav-link {
+    color:var(--pink-transp)!important;
+}
+.nav-link.active, .nav-link:hover {
+    color:var(--yellow-color)!important;
+}
+.dropdown-menu {
+    background-color: var(--pink-transp);
+}
+.dropdown-item {
+    color:var(--white-color);
 }
 
 
 
 
 
-/* Header style start */
+/* ----------------- Header style end ----------------- */
