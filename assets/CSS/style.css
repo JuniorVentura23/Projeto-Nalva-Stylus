@@ -33,7 +33,7 @@
     text-transform:uppercase;
     font-family: var(--principal-font);
     font-weight: 700;
-    transition:all 0.35s ease-in;
+    transition:all 0.75s ease-in;
       
 }
 .nav-item {
@@ -41,6 +41,7 @@
 }
 .nav-link {
     color:var(--pink-transp)!important;
+    transition:all 0.45s ease-in;
 }
 .nav-link.active, .nav-link:hover {
     color:var(--yellow-color)!important;
@@ -52,8 +53,17 @@
     color:var(--white-color);
 }
 
-
-
-
-
 /* ----------------- Header style end ----------------- */
+
+
+/* ----------------- Section home style start ----------------- */
+section {
+    min-height:100vh;
+    overflow-y: hidden;
+}
+
+
+
+
+
+/* ----------------- Section home style end ----------------- */
