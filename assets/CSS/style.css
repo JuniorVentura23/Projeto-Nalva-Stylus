@@ -4,6 +4,8 @@
     padding:0;
     margin:0;
     box-sizing:border-box;
+    font-family: var(--principal-font);
+    transition: all 0.33s ease;
 }
 
 :root {
@@ -21,13 +23,15 @@
 }
 
 /* ----------------- Header style start ----------------- */
-
+body {
+    background-color: var(--purple-one);
+}
 .navbar-purple {
     background-color:var(--purple-one);
-    padding:15px 0;    
+    padding:10px 0;    
 }
 .navbar-brand img {
-    width:100px;
+    width:80px;
 }
 .navbar {    
     text-transform:uppercase;
@@ -40,14 +44,14 @@
     padding:0.6rem;
 }
 .nav-link {
-    color:var(--pink-transp)!important;
+    color:var(--white-color)!important;
     transition:all 0.45s ease-in;
 }
-.nav-link.active, .nav-link:hover {
+.nav-link:hover {
     color:var(--yellow-color)!important;
 }
 .dropdown-menu {
-    background-color: var(--pink-transp);
+    background-color: var(--purple-three);
 }
 .dropdown-item {
     color:var(--white-color);
@@ -56,14 +60,35 @@
 /* ----------------- Header style end ----------------- */
 
 
-/* ----------------- Section home style start ----------------- */
-section {
-    min-height:100vh;
-    overflow-y: hidden;
+/* ----------------- Section Carousel style start ----------------- */
+.carousel-item {
+    height:100vh;
+    min-height:300px !important;
 }
 
+/* ----------------- Section Carousel style end ----------------- */
 
+/* ----------------- Section novidade style start ----------------- */
 
+.novidades-img span {
+    top:20px;
+    right:20px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+}
+.novidades-img {
+   cursor:pointer; 
+}
+.novidades-img img:hover {
+    transform: scale(1.1) translateY(-9px);
+}
+.novidades-title-object {
+    font-size:22px;
+    font-weight: 600;
+}
+.novidade-valor {
+    font-size:22px;
+}
 
-
-/* ----------------- Section home style end ----------------- */
+/* ----------------- Section novidade style end ----------------- */
