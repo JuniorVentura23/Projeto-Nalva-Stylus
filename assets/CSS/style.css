@@ -30,7 +30,7 @@ body {
     background-color:var(--purple-one);
     padding:10px 0;    
 }
-.navbar-brand img {
+.navbar-brand img, .footer-brand img {
     width:80px;
 }
 .navbar {    
@@ -92,3 +92,46 @@ body {
 }
 
 /* ----------------- Section novidade style end ----------------- */
+
+
+/* ----------------- Footer style start ----------------- */
+.bg-color {
+    background-color: var(--purple-four)!important;
+}
+.fa-brands {
+    font-size:25px;
+    color:var(--white-color);
+}
+.footer-duvidas .text-white {
+    font-size:18px;
+    text-decoration: none;
+}
+.footer-duvidas .text-white:hover {
+    text-decoration: underline;
+}
+.box-forma-pag {
+    text-align: center;
+}
+.footer-bandeiras i {
+    padding:10px;
+}
+.form-pag {
+    font-size:25px;
+}
+.pix {
+    width:70px;
+}
+.footer-whatsapp i {
+    font-size:40px;
+    color:rgb(0, 157, 0);
+}
+.whats {
+    font-size:25px;
+    
+
+}
+.footer-bottom p {
+    font-size:12px;
+}
+
+/* ----------------- Footer style end ----------------- */
