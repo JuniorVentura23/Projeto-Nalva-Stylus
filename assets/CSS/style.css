@@ -89,6 +89,7 @@ body {
 }
 .novidade-valor {
     font-size:22px;
+    color:var(--yellow-color)!important;
 }
 
 /* ----------------- Section novidade style end ----------------- */
@@ -99,8 +100,11 @@ body {
     background-color: var(--purple-four)!important;
 }
 .fa-brands {
-    font-size:25px;
+    font-size:28px;
     color:var(--white-color);
+}
+.fa-brands:hover {
+    color:var(--purple-two)
 }
 .footer-duvidas .text-white {
     font-size:18px;
@@ -127,8 +131,6 @@ body {
 }
 .whats {
     font-size:25px;
-    
-
 }
 .footer-bottom p {
     font-size:12px;
