@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conjutos e Macacãos</title>
+
+    <!-- Link Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Link Style Css -->
+    <link rel="stylesheet" href="assets/CSS/style.css">
+
+    <!-- Link favcon -->
+    <link rel="shortcut icon" href="assets/images/favcon.png" type="image/x-icon">
+
+    <!-- Link CDN font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+</head>
+<body>
+
+    <!-------------------- Header start --------------------->
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-purple fixed-top">
+            <div class="container">
+
+                <!-------------- brand start -------------->
+                
+                <a href="index.html" class="navbar-brand"><img src="assets/images/logo.png" alt="Nalva Stylus"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="toggle navigation"><span class="navbar-toggler-icon icon"></span>
+                </button>
+                <!-------------- brand end -------------->
+
+                <!-------------- menu start -------------->
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="index.html#home" class="nav-link active" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html#novidades" class="nav-link">Novidades</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Produtos</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a href="blusas-camisas.html" class="dropdown-item">Blusas/Camisas</a></li>
+                                <li><a href="calças-shorts.html" class="dropdown-item">Calças/Shorts</a></li>
+                                <li><a href="vestidos.html" class="dropdown-item">Vestidos</a></li>
+                                <li><a href="conjuntos-macacaos.html" class="dropdown-item">Conjuntos/Macacãos</a></li>                                
+                                <li><a href="#" class="dropdown-item">Acessórios</a></li>
+                                <li><a href="#" class="dropdown-item">Calçados</a></li>                                
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Clientes</a>
+                        </li>                   
+                        
+                    </ul>                    
+                </div>
+                <!-------------- menu end -------------->
+            </div>
+        </nav>
+
+    </header>
+
+    <!-------------------- Header end -------------------->
+
+
+    <!-------------------- Section carousel start --------------------->
+
+    <section class="home" id="home">
+        <div class="carousel slide" data-bs-ride="carousel" data-interval="5000" id="carouselExIndicators">
+
+            <!----------------- Carousel Indicators start ------------------>
+            
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="slide1"></button>
+                <button type="button" data-bs-target="#carouselExIndicators" data-bs-slide-to="1" aria-label="slide2"></button>                
+            </div>
+
+             <!----------------- Carousel Indicators end ------------------>
+
+             
+             <!----------------- Carousel banners start ------------------>
+             
+             <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/Frente vestdo1.jpg" class="d-block w-100" alt="Vestidos">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/Frente vestidos2.jpg" class="d-block w-100" alt="Vestidos">
+                </div>
+                
+                
+             </div>
+
+             <!----------------- Carousel banners end ------------------>
+
+             
+             <!---------------- Carousel controls prev start ----------------->
+
+             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-idden="true"></span>
+                <span class="visually-hidden">Previous</span>
+             </button>
+
+             <!----------------- Carousel controls prev end ------------------>
+
+             <!---------------- Carousel controls next start ----------------->
+             <button class="carousel-control-next" type="button" data-bs-target="#carouselExIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+             </button>
+             <!---------------- Carousel controls prev end ----------------->
+
+        </div>
+    </section>
+
+    <!-------------------- Section carousel end --------------------->
+
+
+    <!---------------- Section conjuntos-macacãos start ----------------->
+    <section class="conjuntos-macacaos py-5" id="conjuntos-macacaos">
+        <div class="container">
+            <div class="title text-center">
+                <h1 class="text-light pt-4">Conjuntos e Macacãos</h1>
+                <div class="border-top border-primary w-25 mx-auto my-3"></div>
+            </div>
+
+            <div class="row">
+                <div class="novidade-list mt-5 row gx-0 gy-3">
+                    <div class=" col-md-6 col-lg-4 col-xl-3 p-2">
+                        <div class="novidades-img position-relative">
+                            <img src="assets/images/conjunto-1.jpg" alt="Conjunto Blflor" class="w-100">
+                            <span class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
+
+                            <div class="text-center">
+                                <div class="rating mt-3">
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>                                               
+                                </div>
+                                <p class="novidades-title-object text-capitalize text-white my-1">Conjunto Blflor</p>
+                                <span class="text-white my-1">Cód. 082563</span><br>
+                                <span class="novidade-valor text-white fw-bold">R$ 00,00</span>
+                            </div>
+
+                        </div>                        
+                    </div>
+                    
+                    <div class=" col-md-6 col-lg-4 col-xl-3 p-2">
+                        <div class="novidades-img position-relative">
+                            <img src="assets/images/conjunto-2.jpg" alt="Conjunto Yel" class="w-100">
+                            <span class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
+
+                            <div class="text-center">
+                                <div class="rating mt-3">
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>                                               
+                                </div>
+                                <p class="novidades-title-object text-capitalize text-white my-1">Conjunto Yel</p>
+                                <span class="text-white my-1">Cód. 086252</span><br>
+                                <span class="novidade-valor text-white fw-bold">R$ 00,00</span>
+                            </div>
+
+                        </div>                        
+                    </div> 
+
+                    <div class=" col-md-6 col-lg-4 col-xl-3 p-2">
+                        <div class="novidades-img position-relative">
+                            <img src="assets/images/macacao-1.jpg" alt="Macacão Branv" class="w-100">
+                            <span class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
+
+                            <div class="text-center">
+                                <div class="rating mt-3">
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>                               
+                                </div>
+                                <p class="novidades-title-object text-capitalize text-white my-1">Macacão Branv</p>
+                                <span class="text-white">Cód. 083125</span><br>
+                                <span class="novidade-valor text-white fw-bold">R$ 00,00</span>
+                            </div>
+
+                        </div>                        
+                    </div> 
+
+                    <div class=" col-md-6 col-lg-4 col-xl-3 p-2">
+                        <div class="novidades-img position-relative">
+                            <img src="assets/images/macacao-2.jpg" alt="Macacão Zulbr" class="w-100">
+                            <span class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
+
+                            <div class="text-center">
+                                <div class="rating mt-3">
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>                                               
+                                </div>
+                                <p class="novidades-title-object text-capitalize text-white my-1">Macacão Zulbr</p>
+                                <span class="text-white my-1">Cód. 088120</span><br>
+                                <span class="novidade-valor text-white fw-bold">R$ 00,00</span>
+                            </div>
+
+                        </div>                        
+                    </div> 
+
+                    <div class=" col-md-6 col-lg-4 col-xl-3 p-2">
+                        <div class="novidades-img position-relative">
+                            <img src="assets/images/macacao-3.jpg" alt="Macacão Bordor" class="w-100">
+                            <span class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
+
+                            <div class="text-center">
+                                <div class="rating mt-3">
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>                                               
+                                </div>
+                                <p class="novidades-title-object text-capitalize text-white my-1">Macacão Bordor</p>
+                                <span class="text-white my-1">Cód. 087621</span><br>
+                                <span class="novidade-valor text-white fw-bold">R$ 00,00</span>
+                            </div>
+
+                        </div>                        
+                    </div> 
+
+                    <div class=" col-md-6 col-lg-4 col-xl-3 p-2">
+                        <div class="novidades-img position-relative">
+                            <img src="assets/images/macacao-4.jpg" alt="Macacão Zulbb" class="w-100">
+                            <span class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
+
+                            <div class="text-center">
+                                <div class="rating mt-3">
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>                                               
+                                </div>
+                                <p class="novidades-title-object text-capitalize text-white my-1">Macacão Zulbb</p>
+                                <span class="text-white my-1">Cód. 084698</span><br>
+                                <span class="novidade-valor text-white fw-bold">R$ 00,00</span>
+                            </div>
+
+                        </div>                        
+                    </div> 
+
+                    <div class=" col-md-6 col-lg-4 col-xl-3 p-2">
+                        <div class="novidades-img position-relative">
+                            <img src="assets/images/macacao-5.jpg" alt="Macacão Blflow" class="w-100">
+                            <span class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
+
+                            <div class="text-center">
+                                <div class="rating mt-3">
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>                                               
+                                </div>
+                                <p class="novidades-title-object text-capitalize text-white my-1">Macacão Blflow</p>
+                                <span class="text-white my-1">Cód. 089625</span><br>
+                                <span class="novidade-valor text-white fw-bold">R$ 00,00</span>
+                            </div>
+
+                        </div>                        
+                    </div> 
+
+                    <div class=" col-md-6 col-lg-4 col-xl-3 p-2">
+                        <div class="novidades-img position-relative">
+                            <img src="assets/images/macacao6.jpg" alt="Macacão Verdzit" class="w-100">
+                            <span class="position-absolute bg-danger text-white d-flex align-items-center justify-content-center">sale</span>
+
+                            <div class="text-center">
+                                <div class="rating mt-3">
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>
+                                    <span class="text-warning"><i class="fas fa-star"></i></span>                                               
+                                </div>
+                                <p class="novidades-title-object text-capitalize text-white my-1">Macacão Verdzit</p>
+                                <span class="text-white my-1">Cód. 086478</span><br>
+                                <span class="novidade-valor text-white fw-bold">R$ 00,00</span>
+                            </div>
+
+                        </div>                        
+                    </div>                     
+
+                </div>                        
+            </div>
+                    
+        </div>            
+
+        </div>
+        </div>
+
+        </div>
+
+    </section>
+
+    <!---------------- Section vestidos end ----------------->
+
+
+    <!---------------- Footer start ----------------->
+    <footer class="rodape bg-dark bg-color  text-white pt-5 pb-4" id="rodape">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left d-flex align-items">
+                
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <a class="footer-brand" href="#home"><img src="assets/images/logo.png" alt=""></a>
+                    <p class="">Você sempre linda!!!</p>
+                    <div class="footer-icons">
+                        <a href="https://www.instagram.com/nalvastylus/"><i class="fa-brands fa-instagram"></i></a>                        
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 text-md-left footer-duvidas">                   
+                        <h4>Dúvidas</h4>
+                        <span><a class="text-white" href="#">Trocas e Devoluções</a></span>
+                        <span><a class="text-white" href="#">Pagamento e Envio</a></span>                    
+                </div>
+
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 p-2 text-center d-flex flex-column align-items-center">
+                    <h4 class="text-capitalize">Forma de Pagamento</h4>
+                    <div class="footer-bandeiras d-flex align-items-center">                        
+                        <i class="form-pag fa-solid fa-money-bill-1-wave"></i>
+                        <i class="form-pag fa-solid fa-money-check"></i>
+                        <img class="pix" src="assets/images/pix.png" alt="Pix">
+                    </div>                    
+
+                </div>           
+
+            </div>
+
+            <hr>
+
+            <!--------------------- Whatsapp start --------------------->
+            <div class="footer-whatsapp d-inline ">
+                <a href="https://api.whatsapp.com/send?phone=5511983289788&text=Oi,%20tenho%20interesse,%20gostaria%20de%20mais%20detalhes!"><i class="fa-brands fa-whatsapp"></i></a><br>
+                <button type="button" class="whats btn btn-success mt-3 ">Chame-nos pelo Whatsapp</button>
+            </div>
+            <!--------------------- Whatsapp end --------------------->
+
+            <div class="footer-address d-flex pr-3 justify-content-center">
+                
+                <p class="footer-street">
+                    
+                </p>
+            </div>
+
+            <div class="footer-bottom pt-4">
+                <p>
+                    Desenvolvido por <a href="https://github.com/JuniorVentura23">Luis Ventura</a> - Todos os direitos reservados à Nalva Stylus - CNPJ:00.000.000.000/00 - Rua Quintiliano Antônio da Silva, 130 Pq. América São Paulo - SP 
+                </p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!---------------- Footer end ----------------->
+
+    
+
+
+    
+    <!-- Link Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/JS/script.js"></script>
+
+</body>
+</html>
