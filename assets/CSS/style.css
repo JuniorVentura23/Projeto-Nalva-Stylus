@@ -9,10 +9,12 @@
 }
 
 :root {
-    --principal-font: font-family: 'Outfit', sans-serif;
-    --monoscript-font: font-family: 'Carattere', cursive;
-    --signature-font: font-family: 'Lavishly Yours', cursive;
+    /*---------- fonts ---------- */
+    --principal-font:'Outfit', sans-serif;
+    --monoscript-font:'Carattere', cursive;
+    --signature-font:'Lavishly Yours', cursive;
 
+    /*---------- Cores ---------- */
     --purple-one:#32013D;
     --purple-two: #3D004A;
     --purple-three:#4E005F;
@@ -93,6 +95,24 @@ body {
 }
 
 /* ----------------- Section novidade style end ----------------- */
+
+
+/* ----------------- Section quem somos style start ----------------- */
+.text-quem {
+    line-height: 25px;
+}
+.text-center .fw-bold {
+    font-size:20px;
+    text-transform: uppercase;
+}
+.signature {
+    font-family: var(--signature-font);
+    color:#C8A800;
+    font-size: 40px;
+}
+
+
+/* ----------------- Section quem somos style end ----------------- */
 
 
 /* ----------------- Footer style start ----------------- */
