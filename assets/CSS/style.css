@@ -129,8 +129,33 @@ body {
     font-size: 40px;
 }
 
-
 /* ----------------- Section quem somos style end ----------------- */
+.counter-section {
+    background-color: var(--purple-three);
+    padding:5rem 0rem 3rem 0;
+}
+.counter-section p {
+    color:var(--white-color);
+    font-family: var(--principal-font);
+    font-size:20px;
+    text-transform: uppercase;
+}
+.counter-section i {
+    font-size: 50px;
+    color:var(--yellow-color);
+}
+.counter-section .num {
+    font-size:70px;
+    color:var(--white-color);
+}
+
+/* ----------------- Section counter style start ----------------- */
+
+
+
+
+/* ----------------- Section counter style start ----------------- */
+
 
 
 /* ----------------- Footer style start ----------------- */
