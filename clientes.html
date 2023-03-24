@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blusas e Camisas</title>
+    <title>Clientes</title>
 
     <!-- Link Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -74,72 +74,85 @@
     
 
 
-    <!---------------- Section quem somos start ----------------->
-    <section class="clientes py-5" id="clientes">
-        <div class="container">
-            <div class="title text-center">
-                <h1 class="text-light pt-5">Clientes</h1>
-                <div class="border-top border-primary w-25 mx-auto my-3"></div>
-            </div>
-            <p class="text-quem text-white d-flex fw-light py-3 justify-content-center text-center">
-                
-            </p>
-            <div class="text-center text-white">
-                
-                <p>Nossa missão é fazer com que você esteja cada vez mais conectada com estilo e elegância. </p>
-            </div>
-            <img src="assets/images/Frente loja.jpg" class="w-100 pt-4" alt="Nalva Stylus">
-            <span class="signature d-flex justify-content-center pt-3">Nalva Stylus</span>
-
-            
-        </div>        
-
-    </section>
-
-    <!---------------- Section counter start ----------------->
-
-    <section id="counter" class="counter">
-        <section class="counter-section">
+    <!---------------- Section Clientes start ----------------->
+    <section class="cliente" id="cliente">
+        <div slider-area>
             <div class="container">
-                <div class="row text-center">
-                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
-                        <p>Atendimento</p>
-                        <i class="fa-solid fa-shop fa-beat"></i>
-                        <div class="box-value">
-                            <span class="num" data-val="7790">0000</span>
-                        </div>       
-                    </div>
+                <div class="carousel slide" data-bs-ride="carousel" data-interval="5000" id="carouselExIndicators">
 
-                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
-                        <p>Clientes Satisfeitos</p>
-                        <i class="fa-solid fa-handshake-simple fa-beat"></i>                        
-                        <div class="box-value">
-                            <span class="num" data-val="7790">0000</span>
-                        </div>                        
-                    </div>
+                    <!----------------- Carousel Indicators start ------------------>
                     
-                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
-                        <p>Qualidade dos produtos</p>
-                        <i class="fa-solid fa-award fa-beat"></i>
-                        <div class="box-value">
-                            <span class="num" data-val="100">000</span>
-                        </div>                     
-                                                
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="slide1"></button>
+                        <button type="button" data-bs-target="#carouselExIndicators" data-bs-slide-to="1" aria-label="slide2"></button> 
+                        <button type="button" data-bs-target="#carouselExIndicators" data-bs-slide-to="2" aria-label="slide3"></button>               
                     </div>
 
-                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
-                        <p>Produtos</p>
-                        <i class="fa-solid fa-shirt fa-beat"></i>
-                        <div class="box-value">
-                            <span class="num" data-val="2351">0000</span>
-                        </div>                        
+                    <!----------------- Carousel Indicators end ------------------>
+
+                    
+                    <!----------------- Carousel banners start ------------------>
+                    
+                    <div class="carousel-inner amar">
+                        <div class="carousel-item active">
+                            <div class="img-area">
+                                <img src="assets/images/Beta.jpg" class="d-block w-100" alt="Calças e shorts"> 
+                            </div>
+                            <div class="carousel-caption">
+                                <h3>Beta</h3>
+                                <p>Aqui não tem como não encontrar algo que não seja sua cara, meu marido fala que muitas das vezes não preciso daquilo, mas quando entro na loja, me deparo com uma roupa e falo: preciso levar isso.<br>
+                                Além do atendimento ser também plausível, nota 1000 para o atendimento.</p>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <div class="img-area">
+                                <img src="assets/images/Vani.jpg" class="d-block w-100" alt="Calças e shorts"> 
+                            </div>
+                            <div class="carousel-caption">
+                                <h3>Vani</h3>
+                                <p>Entrou se apaixou rsrs, brincadeiras a parte, as roupas são de ótima qualidade além do atendimento também, praticamente toda semana tem novidade e acabo indo até à loja e compro alguma coisa.<br>
+                                Nalva stylus é tudo de bom!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="img-area">
+                                <img src="assets/images/Tia Su.jpg" class="d-block w-100" alt="Calças e shorts"> 
+                            </div>
+                            <div class="carousel-caption">
+                                <h3>Su</h3>
+                                <p>Oh que maravilha, essa loja é um encanto, quem quer estar na moda, venha até a Nalva Stylus, o lugar certo, sempre que vou até à loja me encanto.<br>
+                                Atendimento personalizado e especial!</p>
+                            </div>
+                        </div>
+
+                        
+                        
                     </div>
+
+                    <!----------------- Carousel banners end ------------------>
+
+                    
+                    <!---------------- Carousel controls prev start ----------------->
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-idden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <!----------------- Carousel controls prev end ------------------>
+
+                    <!---------------- Carousel controls next start ----------------->
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    <!---------------- Carousel controls prev end ----------------->
+
                 </div>
-            </div>
-        </section>
-    </section>
-
-    <!---------------- Section counter end ----------------->
+        </div>
+    </section> 
 
 
     <!---------------- Footer start ----------------->
