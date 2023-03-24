@@ -160,11 +160,9 @@ body {
     /* padding:50px 0; */
     position:relative;
     /* margin:120px 0; */
+    
 }
-.img-area {
-    
-    
-    
+.img-area {    
     width:250px;
     height:250px;
     margin:auto;
@@ -185,7 +183,7 @@ body {
     font-size:18px;
 }
 .amar {
-    background-color: var(--yellow-color);
+    
     padding:200px;
     border-radius: 200px;
     height:900px;
