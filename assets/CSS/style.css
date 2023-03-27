@@ -83,7 +83,8 @@ body {
 /* ----------------- Section Carousel style start ----------------- */
 .carousel-item {
     height:100vh;
-    min-height:300px !important;
+    
+    
 }
 
 /* ----------------- Section Carousel style end ----------------- */
@@ -157,9 +158,9 @@ body {
 /* ----------------- Section clientes style start ----------------- */
 
 .slider-area {
-    /* padding:50px 0; */
+    /* padding:80px 0; */
     position:relative;
-    /* margin:120px 0; */
+    /* margin:180px 0; */
     
 }
 .img-area {    
@@ -171,7 +172,7 @@ body {
     overflow: hidden;
 }
 .img-area img {
-    width:550px;     
+    width:100%;     
 }
 .carousel-caption {
     position: absolute;
@@ -202,6 +203,11 @@ body {
 }
 .fa-brands:hover {
     color:var(--purple-two)
+}
+.footer-duvidas {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .footer-duvidas .text-white {
     font-size:18px;
@@ -234,3 +240,84 @@ body {
 }
 
 /* ----------------- Footer style end ----------------- */
+
+@media (max-width:1200px) {
+    .carousel-caption {
+        position: absolute;
+        bottom:100px;
+        color:var(--pink-transp);
+    }
+}
+
+@media (max-width:995px) {
+    .carousel-item .img-area .w-100 {
+        width: 100%!important;
+        position: absolute;
+        top: 1px;
+        
+    }
+    .carousel-caption {
+        position: absolute;
+        bottom:162px;
+        right:600px;
+        color:var(--pink-transp);
+        line-height: 15px;
+        width:600px;
+    }
+    
+}
+
+@media (max-width:770px) {
+    .carousel-item {
+        height:50vh;
+    }
+    .carousel-item .w-100 {
+        width: 100%!important;
+        position: absolute;
+        top: 70px;
+        /* height:auto; */
+        
+    }
+    .carousel-caption {
+        position: absolute;
+        bottom: -139px;
+        left: 7px;
+        color: var(--pink-transp);
+        line-height: 15px;
+        width: 296px
+    }
+    .img-area {    
+        width:200px;
+        height:200px;
+        position: absolute;
+        bottom: 220px;
+        left: 52px;
+        color: var(--pink-transp);
+        line-height: 15px;        
+
+    }  
+    
+}
+@media (max-width:430px) {
+    .carousel-indicators {
+        display: none;
+    }
+    .carousel-caption {
+        position: absolute;
+        bottom: -140px;
+        left: -150px;
+        color: var(--pink-transp);
+        line-height: 15px;
+        width: 296px
+    }
+    .img-area {    
+        width:200px;
+        height:200px;
+        position: absolute;
+        bottom: 200px;
+        left: -98px;
+        color: var(--pink-transp);
+        line-height: 15px; 
+
+    }  
+   }
