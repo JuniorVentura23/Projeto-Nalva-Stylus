@@ -274,8 +274,8 @@ body {
     .carousel-item .w-100 {
         width: 100%!important;
         position: absolute;
-        top: 70px;
-        /* height:auto; */
+        top: 10px;
+        height:auto;
         
     }
     .carousel-caption {
@@ -302,22 +302,11 @@ body {
     .carousel-indicators {
         display: none;
     }
-    .carousel-caption {
+    .carousel-item .w-100 {
+        width: 100%!important;
         position: absolute;
-        bottom: -140px;
-        left: -150px;
-        color: var(--pink-transp);
-        line-height: 15px;
-        width: 296px
+        top: 60px;
+        height:auto;
+        
     }
-    .img-area {    
-        width:200px;
-        height:200px;
-        position: absolute;
-        bottom: 200px;
-        left: -98px;
-        color: var(--pink-transp);
-        line-height: 15px; 
-
-    }  
-   }
+   } 
