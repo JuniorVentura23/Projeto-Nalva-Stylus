@@ -3,8 +3,8 @@
 Projeto desenvolvido para atender uma loja de roupas.
 
 <br>
-Confira o projeto Nalva Stylus logo abaixo com uma prévia!!<br>
-<img src="assets/images/desktop_nalvaStylus.jpg" width:100%>
+Confira o projeto Nalva Stylus logo abaixo com uma prévia!!<br><br>
+<img src="assets/images/sizesite_nalva.jpg" width:100%>
 
 ### Veja o projeto Nalva Stylus <a href="https://projeto-nalva-stylus.vercel.app/">Online</a>.
 
