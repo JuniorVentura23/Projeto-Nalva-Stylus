@@ -6,7 +6,7 @@ Projeto desenvolvido para atender uma loja de roupas.
 Confira o projeto Nalva Stylus logo abaixo com uma prévia!!<br>
 <img src="assets/images/projeto comp Nalva Stylus.jpg " width:100%>
 
-### Veja o projeto Nalva Stylus <a href="https://main--famous-daifuku-73e041.netlify.app/">Online</a>.
+### Veja o projeto Nalva Stylus <a href="https://projeto-nalva-stylus.vercel.app/">Online</a>.
 
 <br>
 
@@ -42,7 +42,7 @@ Na parte do HEADER:  Ao passar o mouse sobre o menu, muda-se a cor do mesmo;
 <hr>
 O projeto possui um "HOME" interativo no qual temos um um slide-show e uma sessão de fotos mais o footer.
 <hr>
-Na página "produtos": Foi criado um dropdown usando o Bootstrap5 com 6 opções.
+Na página "produtos": Foi criado um dropdown usando o Bootstrap5 com 6 opções de Produtos.
 <hr>
 
 Na sessão "Quem somos": Temos um texto de apresentação, seguido de uma foto, o nome da loja, uma sessão de counters baseado em números que se obteve pela loja e seguido do footer.
